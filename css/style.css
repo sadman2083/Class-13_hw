@@ -1,0 +1,63 @@
+/*  Common Css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 50px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+/*  Common Css End */
+
+
+/* vsection Section Css start */
+section{
+    background-color: #4378A0;
+    padding: 150px;
+}
+.w-50{
+    width: 60%;
+}
+.vimg{
+    width: 40%;
+    position: relative;
+}
+.vimg img{
+    max-width: 100%;
+    border-radius: 10px;
+    
+}
+.vimg i{
+position: absolute;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: #ffffff;
+display: inline-block;
+text-align: center;
+left: 50%;
+top: 50%;
+line-height: 50px;
+font-size: 20px;
+color: #4378A0;
+cursor: pointer;
+}
+
+/* vsection Section Css End */
